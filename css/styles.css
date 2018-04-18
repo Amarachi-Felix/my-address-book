@@ -1,0 +1,290 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding: 0;
+	font-family:arial,"sans-serif", georgia;
+	font-weight:400;
+	font-style:normal;
+	background-color: #EEEEEE;
+}
+a{
+	color: #177EE5;
+	cursor: pointer;
+	font-size: 0.9em;
+}
+a:hover, a:active{
+	text-decoration: underline;
+	color: 
+}
+.header{
+	width: 100%;
+	height: 60px;
+	padding: 0px 0 0px 20px;
+	background-color: #0288D1;
+	color: #fff;
+}
+.header .icon{
+	width: 15%;
+	display: inline-block;
+}
+.header .icon span{
+	font-style: italic;
+	color: #Fff;
+	position: relative;
+	bottom: 10px;
+}
+.header .nav{
+	width: 50%;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+.header .nav ul{
+	list-style: none;
+}
+.header .nav ul li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+}
+.header .nav ul li a{
+	color: #fff;
+	height: 60px;
+	text-decoration: none;
+	font-size: 0.9em;
+	position: relative;
+	bottom: 10px;
+}
+.header .search{
+	width: 23%;
+	display: inline-block;
+}
+.header .search form{
+	width: 100%;
+	display: inline-block;
+}
+.header .search form input{
+	width: 75%;
+	height: 35px;
+	background-color: #fff;
+	padding: 5px;
+	border: none;
+	color: #8C8C8C;
+	position: relative;
+	bottom: 10px;
+	outline: none;
+}
+.header .search form button {
+	width: 22.8%;
+	height: 35px;
+	background-color: #E1AB37;
+	color: #fff;
+	font-size: 1.2em;
+	position: relative;
+	bottom: 8px;
+	right: 4.4px;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+.header .add{
+	width: 10%;
+	display: inline-block;
+ 	padding: 0 0 0 20px;
+}
+.header .add .widget{
+	width: 45%;
+	height: 100%;
+	text-align: center;
+	display: inline-block;
+	background-color: #0288D1;
+	border-left: 1px #fff solid;
+}
+.header .add .adds1, .header .adds2 i{
+	font-size: 30px;
+}
+.main{
+	width: 85%;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	min-height: 500px;
+	padding: 10px 20px 10px 40px;
+	box-shadow: 8px 5px 10px 3px #ccc;
+}
+.main .author{
+	width: 100%;
+	margin-bottom: 80px;
+}
+.main .author h3{
+	width: 25%;
+	color: #0288d1;
+	border-bottom: 3px solid #0288d1;
+}
+.main .author .widget{
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #fff;
+	text-align: justify;
+	font-size: 15px;
+	padding-right: 20px;
+}
+.main .author .widget.myphoto, .main .author .widget.review{
+	width: 34%;
+}
+.main .author .widget.social{
+	padding-top: 130px;
+}
+.main .author .widget .social-media{
+	height: 66px;
+	border-bottom: 1px solid #9C9C9B;
+	border-top: 1px solid #9C9C9B;
+}
+.main .author .widget .social-media ul{
+	list-style: none;
+}
+.main .author .widget .social-media ul li{
+	list-style: none;
+	display: inline-block;
+}
+.main .author .widget .social-media ul li a{
+	text-decoration: none;
+	padding: 5px;
+}
+.main .author .widget .social-media i{
+	font-size: 1.8em;
+	width: 40px;
+	height: 40px;
+	padding-top: 5px;
+	text-align: center;
+	border-radius: 30px;
+}
+.main .author .widget .social-media .fa-linkedin{
+	color: #fff;
+	background-color: #007BB5;
+}.main .author .widget .social-media .fa-google-plus{
+	color: #fff;
+	background-color: #DD4B39;
+}.main .author .widget .social-media .fa-facebook{
+	color: #fff;
+	background-color: #3B5998;
+}.main .author .widget .social-media .fa-twitter{
+	color: #fff;
+	background-color: #55ACEE;
+}
+.main .author .widget img{
+	width: 250px;
+	height:220px;
+	border-radius: 70px;
+}
+.main .contacts{
+	width: 100%;
+	min-height: 200px;
+	/*text-align: center;*/
+	background-color: #fff;
+	font-family: arial;
+}
+.main .contacts h2{
+	text-align: center;
+	color: #0288D1;
+}
+.main .contacts .widget{
+	width: 49%;
+	min-height: 200px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px 0 20px 70px;
+}
+.main .contacts .widget h3{
+	padding-bottom: 12px;
+	text-align: justify;
+}
+.contacts .widget form {
+	width: 100%;
+}
+.contacts .widget form .item{
+	padding: 8px;
+}
+.contacts .widget form label{
+	padding: 20px;
+}
+.contacts .widget form input{
+	width: 45%;
+	height: 28px;
+	padding: 3px 8px;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+	border: 1px solid #ccc;
+	background-color: #EEEEEE;
+}
+.contacts .widget form input[type="email"]{
+	margin-left: 34px;
+}
+.contacts .widget form input[type="date"]{
+	margin-left: 16px;
+}
+.contacts .widget .button-cs {
+	padding: 10px 0 0 140px;
+}
+.contacts .widget .button-cs .item{
+	display: inline-block;
+}
+.contacts form input[type="submit"], .contacts form input[type="button"]{
+	width: 80px;
+	height: 35px;
+	border:none;
+	text-align:center;
+	display: inline-block;
+	border-radius: 20px;
+	background: linear-gradient(to top left,#fff,#0288D1);
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: bold;
+}
+.main .contacts .widget .contacts-name{
+	border-collapse: collapse;
+	background-color: #fff;
+}
+.contacts .widget .contacts-name, .contacts-name th, .contacts-name td{
+	text-align: left;
+	padding: 8px 16px;
+}
+.contacts .widget .contacts-name th{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.contacts .widget .contacts-name tr{
+	font-size: 15px;
+	color: #000;
+}
+.contacts .widget .contacts-name tr:nth-child(2n){
+	background-color: rgb(218,238,248);
+}
+
+.main .contacts #details{
+	background-color: #fff;
+	padding: 0 160px;
+}
+#details #table, #table th, #table td{
+	text-align: left;
+	padding: 8px 16px;
+}
+#details #table th{
+	font-weight: bold;
+}
+#details #table tr{
+	font-size: 15px;
+	color: #000;
+	background-color: #eee;
+}
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #0288D1;
+}

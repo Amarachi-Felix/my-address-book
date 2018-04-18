@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>My Address book</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="fa/css/font-awesome.css">
+	<link rel="stylesheet" href="fa/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+	<!-- header section -->
+	<div class="header">
+
+		<div class="icon"><img src="images/icon1.png" alt="icon">
+			<span>maraVir.com</span>
+		</div>
+
+
+		<!-- navigation bar -->
+		<div class="nav">
+
+			<ul>
+				<li><a href="#">APPS</a></li>
+				<li><a href="#">EMAIL</a></li>
+				<li><a href="#">CALENDAR</a></li>
+				<li><a href="#">TASKS</a></li>
+				<li><a href="#">CONTACTS</a></li>
+				<li><a href="#">NOTES</a></li>
+				<li><a href="#">USERS</a></li>
+			</ul>
+
+		</div>
+
+
+
+		<div class="search">
+
+			<form action="" class="form-search">
+				<input type="search" class="search" placeholder="search for apps, articles..." autocomplete="off">
+				<button class="submit" type="submit">
+					<i class="fa fa-search-minus"></i>
+				</button>
+			</form>
+
+		</div>
+
+
+
+		<div class="add">
+
+			<div class="widget">
+				<div class="adds1"><i class="fa fa-cogs"></i></div>
+			</div>
+
+			<div class="widget">
+				<div class="adds2"><i class="fa fa-user-plus"></i></div>
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+	<div class="main">
+
+	
+		<!-- first widget -->
+		<div class="author">
+
+
+			<h3>Athor's review</h3>
+
+
+			<div class="widget review">
+
+				<p>My Address Book is an easy to use contact manager for keeping track of friends, family, and business contacts. You can store addresses, email, birth date & phone information for each contact.</p>
+				<p>You can also see the list of contact names andOn clicking on a contact name, the details of the contact will be displayed </p>
+				<p>If you wish to make changes in any of the saved contacts, you can edit a contact’s details. You can as well delete a contact’s details</p>
+
+			</div>
+
+
+			<div class="widget social">
+
+
+				<div class="social-media">
+
+					<ul>
+						<li><a href="https://www.linkedin.com/in/amarachi-virginia-ekwo-a1572413b"><i class="fa fa-linkedin"></i></a></li>
+						<li><a class="twitter" href=""><i class="fa fa-twitter"></i></a></li>
+						<li><a class="fb" href=""><i class="fa fa-facebook"></i></a></li>
+						<li><a class="" href=""><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+
+				</div>
+
+
+			</div>
+
+	
+
+			<div class="widget myphoto">
+				<div class="photo"><img src="images/mara.jpg" alt="author's photo"></div>
+			</div>
+
+		</div>
+
+
+		<!-- contact info section -->
+		<div class="contacts" id="contacts">
+
+
+			<h2>Keep track of friends and colleagues</h2>
+
+
+			<div class="widget">
+
+
+				<form id="contacts-form" class="cont-form">
+
+
+					<h3>Add contact</h3>
+
+				    <div class="item text">
+				        <label for="first-name">First name:</label>
+				        <input type="text" id="first-name" name="first_name"/>
+				    </div>
+
+				    <div class="item text">
+				        <label for="last-name">Last name:</label>
+				        <input type="text" id="last-name" name="last_name"/>
+				    </div>
+
+				    <div class="item text">
+				        <label for="email">Email:</label>
+				        <input type="email" id="email" name="email"/>
+				    </div>
+
+				    <div class="item text">
+				        <label for="tele">Telephone:</label>
+				        <input type="tel" id="tele" name="phone"/>
+				    </div>
+
+				    <div class="item text">
+				        <label for="bday">Birthday:</label>
+				        <input type="date" id="bday" name="bday"/>
+				    </div>
+
+				    <div class="button-cs">
+
+				        <div class="item button">
+				            <input type="button" id="contacts-cancel" value="Cancel"/>
+				        </div>
+
+				        <div class="item button button-save">
+				            <input type="submit" id="contacts-save" value="Save"/>
+				        </div>
+
+				    </div>
+
+
+				    <input type="hidden" name="id_entry" value="0"/>
+
+				</form>
+				
+
+			</div>
+
+
+
+			<div class="widget">
+
+
+				<h3>Contact names</h3>
+
+				<table class="contacts-name" id="contacts-name">
+
+					<tr>
+						<th id="cont-id">Id</th>
+						<th class="first-name" id="first-name">Name</th>
+					</tr>
+
+				</table>
+
+
+			</div>
+
+			<!-- for contact details -->
+			
+			<div id="details">
+
+				<h3 id="name"></h3>
+				<table id="table"></table>
+			</div>
+
+		</div>
+		
+	</div>
+
+
+	<footer class="foot"></footer>
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/address-book.js"></script>
+
+</body>
+</html>
